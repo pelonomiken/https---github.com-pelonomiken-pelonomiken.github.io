@@ -169,3 +169,33 @@ body{
         transform: translateY(0);
     }
 }
+
+@media only screen and (max-width:700px){
+    .home{
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+
+    .home-img{
+        flex-basis: 100%;
+        margin-bottom: 70px;
+    }
+
+    .home-img img{
+        width: 90%;
+    }
+
+    .home-content{
+        flex-basis: 100%;
+    }
+
+    .home-content h3{
+        font-size: 35px;
+    }
+
+    .home-content h1{
+        font-size: 15px;
+    }
+
+
+}
